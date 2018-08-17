@@ -8,18 +8,20 @@ Then, input to the activation function can climb onto the saturation area which 
 
 ### GAAF
 <div align="center">
-  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/gaaf.png">
+  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/gaaf.png"  width="600">
 </div>
+
 <div align="center">
-  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/gx.png">
+  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/gx.png"  width="350">
 </div>
+
 <div align="center">
-  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/fx.png">
+  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/fx.png"  width="350">
 </div>
 
 ### Experimental Results in the Paper
 <div align="center">
-  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/result.png">
+  <img src="https://github.com/kobiso/GAAF-keras/blob/master/figures/result.png"  width="700">
 </div>
 
 ## Prerequisites
@@ -31,7 +33,7 @@ This repository use [*Cifar10*](https://www.cs.toronto.edu/~kriz/cifar.html) dat
 When you run the training script, the dataset will be automatically downloaded.
 
 ### Change Activation Function
-This repository supports two GAAF: **GAAF_relu** and **GAAF_tanh**
+This repository supports two GAAF: **GAAF_relu** and **GAAF_tanh**.
 For the *GAAF_relu*, It uses shifted sigmoid function as shape function and you can set the shift parameter.
 For the *GAAF_tanh*, It uses modified Gaussian function with a peak point at y=1.
 
@@ -85,8 +87,8 @@ Interesting thing is, when I changed `mut-tf.floor(mut)` with `K.abs(mut-K.round
 - Repository: [CBAM-keras](https://github.com/kobiso/CBAM-keras)
 
 ## Reference
-- Paper: ["Gradient Acceleration in Activation Functions"](https://arxiv.org/abs/1806.09783)
-- Repository: [Keras: Cifar10 ResNet example](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
+- Paper: [Gradient Acceleration in Activation Functions](https://arxiv.org/abs/1806.09783)
+- Repository: [Cifar10 ResNet example in Keras](https://github.com/keras-team/keras/blob/master/examples/cifar10_resnet.py)
   
 ## Author
 Byung Soo Ko / kobiso62@gmail.com
