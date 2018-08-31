@@ -84,6 +84,7 @@ Interesting thing is, when I changed `mut-tf.floor(mut)` with `K.abs(mut-K.round
 **If there is any implementation error in this repository, please let me know.**
 
 ## Related Works
+- Blog: [Gradient Acceleration in Activation Functions](https://kobiso.github.io//research/research-gradient-acceleration/)
 - Repository: [CBAM-keras](https://github.com/kobiso/CBAM-keras)
 
 ## Reference
